@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4" >
+
+	        <ImageView
+	            android:id="@+id/comprehensive"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="5" 
+	            android:background="@drawable/comprehensive"
+	            android:contentDescription="@string/app_name"
+	            >
+	
+	        </ImageView>
+	        <TextView 
+	            android:layout_height="match_parent"
+	            android:layout_width="3dp"
+	            android:layout_weight="0"
+	            />
+	        <ImageView
+	            android:id="@+id/map"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="3"
+	            android:background="@drawable/map"
+	            android:contentDescription="@string/app_name"
+	             >
+	
+	        </ImageView>
+     </LinearLayout>
+      <TextView 
+	            android:layout_height="3dp"
+	            android:layout_width="match_parent"
+	            />
+     <ImageView
+        android:id="@+id/television"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/television"
+        android:contentDescription="@string/app_name"
+        android:layout_weight="3" >
+     </ImageView>
+     <TextView 
+	            android:layout_height="3dp"
+	            android:layout_width="match_parent"
+	            />
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4" >
+	         <ImageView
+	             android:id="@+id/lottery"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent" 
+	            android:layout_weight="1"
+	            android:background="@drawable/lottery"
+	            android:contentDescription="@string/app_name"
+	            >
+	
+	        </ImageView>
+	        <TextView 
+	            android:layout_height="match_parent"
+	            android:layout_width="3dp"
+	            android:layout_weight="0"
+	            />
+	        <ImageView
+	            android:id="@+id/radio"
+	            android:layout_width="wrap_content"
+	            android:layout_height="match_parent"
+	            android:layout_weight="1" 
+	            android:background="@drawable/radio"
+	            android:contentDescription="@string/app_name"
+	            >
+	
+	        </ImageView>
+     </LinearLayout>
+
+</LinearLayout>
